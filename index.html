@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ask Oyugi</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <!-- ==================================================================
+                  Header and Navigation bar
+    ====================================================================== -->
+    <header>
+        <img src="./images/my logo.jpg" alt="My picture" class="mypic"/>
+
+        <h1>Ask Oyugi</h1>
+
+          <div class="searchbar">
+            <input type="search" placeholder="Type Here" />
+            <button class="search">
+              <label for="search">Search</label>
+            </button>
+          </div>
+
+          <nav>
+            <ul class="breadcrumb">
+              <!--<li><a href="About">About</a></li>-->
+              <li><a href="#projects" class="nav-links">Projects</a></li>
+              <li><a href="#contact" class="nav-links">Contact</a></li>
+            </ul>
+          </nav>
+    </header>
+    <br />
+
+    
+      <!--==================================================================
+                    Start of About Section
+      ====================================================================== -->
+
+        <div id="about">
+          <h2>About Me</h2>
+          <p class="my-info">
+            I am Clinton Oyugi. Also called Mr. OJ. Am a Front-End Developer based in Kenya.
+            <br>
+            <br>
+            I was originally in the criminology and law side of things. However I made the switch back in the year 2020 and haven't looked back since. 
+            <br>
+            <br>
+            I started my coding and programming journey with learning python. i completed the basics of python upto the intermediate level. This took almost the entire of 2020. However, things didn't work out since i had not decided which route to take in pogramming. This uncertainity didn't last as I finally choose my part in Font-End Development and my path was clear thus i picked up JavaScript ,HTML, CSS and React.
+            <br>
+            <br>
+            It was easier learning JavaScript,HTML and CSS since I was already knowledgeable from my study of python. Thus the entire year of 2021 I sharppened my skills in my rlated field.
+            In 2022 and 2023 I continued to sharpen my skills by doing some projects which can be seen in my personally created website.
+
+            You can get to know me more through my contact and projects I have managed to tackle as seen in my <a href="projects">projects</a> and <a href="contact">contact</a> pages respectively.
+
+          </p>
+        </div>
+
+        <div class="image">
+          <img src="./images/image4.JPG" alt="Picture of Myself" class="myself">
+        </div>
+      
+      <br>
+      <br>
+
+      <!-- ==================================================================
+                    Start of projects sections
+      ====================================================================== -->
+
+      <section id="projects">
+        <h2 class="heading">My Projects so far:</h2>
+        <br>
+        <br>
+        <div class="python">
+        <h3>Python:</h3>
+          <ol>
+            <li><a href="#" class="proj">Python-1</a></li>
+            <li><a href="#" class="proj">Python-2</a></li>
+            <li><a href="#"class="proj">Python-3</a></li>
+          </ol>
+        </div>
+          <br>
+        <div class="htmlcss">
+        <h3>HTML, CSS:</h3>
+          <ol>
+            <li><a href="#" class="proj">Front-End-1</a></li>
+            <li><a href="#" class="proj">Front-End-2</a></li>
+            <li><a href="#" class="proj">Front-End-3</a></li>
+            <li><a href="#" class="proj">Front-End-4</a></li>
+          </ol>
+        </div>
+          <br>
+        <div class="javascript">
+        <h3>JavaScript:</h3>
+          <ol>
+            <li><a href="#" class="proj">Javascript-1</a></li>
+            <li><a href="#" class="proj">Javascript-2</a></li>
+            <li><a href="#" class="proj">Javascript-3</a></li>
+            <li><a href="#" class="proj">Javascript-4</a></li>
+          </ol>
+        </div>
+          <br>
+        <div class="react">
+        <h3>React:</h3>
+          <ol>
+            <li><a href="#" class="proj">React-1</a></li>
+            <li><a href="#" class="proj">React-2</a></li>
+            <li><a href="#" class="proj">React-3</a></li>
+            <li><a href="#" class="proj">React-4</a></li>
+          </ol>
+      </div>
+    </section>
+
+      <br>
+      <br>
+
+      <!-- ==================================================================
+                      Start of Skills section
+      ====================================================================== -->
+
+      <section id="skills">
+          <h2>This are my Skills:</h2>
+            <div class="skills">
+              <ol class="skill-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Python</li>
+              </ol>
+            </div>
+      </section>
+
+      <br>
+      <br>
+
+      <!-- ==================================================================
+                      Start of Contact section
+      ====================================================================== -->
+
+      <section id="contact">
+          <h2>Contact Me::</h2>
+          <div class="contact">
+            <h3>Telephone:</h3>
+            <p>+254703274349</p>
+            <h3>Email:</h3>
+              <p style="text-decoration: underline;">clintojiamboh@gmail.com</p>
+          </div>
+
+        <div class="social-media">
+          <ul>
+            <li><a href="#" class="social">LinkedIn</a></li>
+            <li><a href="#" class="social">Github</a></li>
+            <li><a href="#" class="social">Fivver</a></li>
+            <li><a href="#" class="social">Upwork</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <div id="form">
+        <h2>Leave a Review</h2>
+        <hr>
+        <form action="#" method="#">
+          <label for="text">Name:</label>
+          <input id="name" name="name" type="text" required minlength="3" maxlength="100" placeholder="Enter Both Names" required/>
+          <hr>
+          <br>
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="@Email Address" required/>
+          <hr>
+          <label for="riview">Review: </label>
+          <textarea id="review" name="review" rows="5" cols="30">We await your honest review</textarea>
+          <hr>
+          <input type="submit" value="Submit" class="submit">
+        </form>
+      </div>
+
+    <footer>
+        <div class="container">
+            <p class="copyright">
+              &lt;&lt;&lt;&copy; Copyright<strong>Clinton Oyugi</strong>&gt;&gt;&gt;
+            </p>
+        </div>
+    </footer>
+    <script src="./scripts.js" async></script>
+  </body>
+</html>
